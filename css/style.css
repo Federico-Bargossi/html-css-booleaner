@@ -4,6 +4,7 @@
     height: 175px;
     background-color: rgb(94, 157, 198);
     
+    
 }
 
 .grey-sub{
@@ -22,9 +23,49 @@
 .thead{
     color: white;
     background-color: rgb(70, 117, 226);
+    height: 5px;
+    text-align: left;
     
+    
+}
+
+.table{
+    table-layout: fixed;
+    height: 150px;
+    width: 1250px;
+    empty-cells: hide;
 }
 
 .tbody{
     background-color: aqua;
+    text-align: left;
+
+}
+
+.footer{
+    color: grey;
+    
+}
+
+.photo{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    height: 190px;
+    width: 270px;
+    font-size:140%
+
+    
+}
+
+.photoe{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    width: 270px;
+    height: 190px;
+    font-size: 140%
+    
+    
 }
